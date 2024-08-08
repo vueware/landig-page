@@ -19,7 +19,15 @@ const Contact = () => {
                 className="h-7 w-6 text-black/25"
               />
             </dt>
-            <dd className="font-semibold">Vriezenveen, The Netherlands</dd>
+            <dd className="font-semibold">
+              <a
+                href="https://www.google.nl/maps/place/Vriezenveen/@52.4359593,6.5531393,12z/data=!3m1!4b1!4m6!3m5!1s0x47b800c92922aec1:0xebba6884fbe002c2!8m2!3d52.4085238!4d6.6146301!16s%2Fm%2F025rq2_?entry=ttu"
+                target="_blank"
+                className="hover:text-primary transition"
+              >
+                Vriezenveen, The Netherlands
+              </a>
+            </dd>
           </div>
           <div className="flex gap-x-4">
             <dt className="flex-none">
