@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        hyacinth: "#9866ff",
-        indigo: "#6736e4",
-        aqua: "#00b8ff",
+        primary: "#4f46e5",
+        secondary: "#0ea5e9",
       },
     },
   },
+  darkMode: "class", // media
   plugins: [],
 };
 export default config;
