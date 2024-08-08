@@ -10,7 +10,7 @@ const Page = () => {
   return (
     <section className="h-screen bg-white text-black">
       {/* Main */}
-      <div className="mx-auto max-w-4xl p-6 lg:p-8">
+      <div className="mx-auto max-w-4xl p-6 lg:p-8 animate-fade animate-once animate-delay-100">
         {/* Header */}
         <header className="w-full flex justify-between items-center">
           <a href="/">

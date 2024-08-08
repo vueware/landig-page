@@ -1,7 +1,11 @@
 const Social = () => {
   return (
     <div className="flex gap-x-3">
-      <a href="https://github.com/vueware" target="_blank">
+      <a
+        href="https://github.com/vueware"
+        target="_blank"
+        aria-label="Show our Github account"
+      >
         <svg
           fill="currentColor"
           viewBox="0 0 24 24"
@@ -14,7 +18,11 @@ const Social = () => {
           />
         </svg>
       </a>
-      <a href="https://threads.net/vueware" target="_blank">
+      <a
+        href="https://threads.net/vueware"
+        target="_blank"
+        aria-label="Show our Threads account"
+      >
         <svg
           fill="currentColor"
           viewBox="0 0 20 20"

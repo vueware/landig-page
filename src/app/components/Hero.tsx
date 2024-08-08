@@ -1,14 +1,14 @@
 const Hero = () => {
   return (
     <div className="py-8">
-      <h4 className="text-base font-semibold leading-7 text-secondary">
+      <h3 className="text-base font-semibold leading-7 text-secondary">
         What we do
-      </h4>
+      </h3>
       <h2 className="text-5xl sm:text-6xl font-bold tracking-tight text-black">
         Empowering by digital intelligence
       </h2>
       <p className="mt-4 text-lg leading-8 text-black/75">
-        We provide businesses with tailored software solutions that optimize,
+        We provide companies with tailored software solutions that optimize,
         automate, and digitize processes, while offering comprehensive data
         insights and analysis for enhanced decision-making.
       </p>
@@ -21,6 +21,7 @@ const Hero = () => {
         </a>
         <a
           href="https://github.com/vueware/landig-page"
+          aria-label="This webpage is Open Source"
           target="_blank"
           className="text-sm font-semibold leading-6 text-black hover:text-secondary transition mt-1"
         >

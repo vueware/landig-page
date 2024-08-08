@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div id="contact" className="py-8">
       <div className="max-w-xl lg:mx-0 lg:max-w-lg">
-        <h4 className="text-base font-semibold leading-7 text-secondary">
+        <h3 className="text-base font-semibold leading-7 text-secondary">
           Get in touch
-        </h4>
+        </h3>
         <h2 className="text-3xl font-bold tracking-tight">
           Don't be a stranger
         </h2>
@@ -37,7 +37,7 @@ const Contact = () => {
             <dd>
               <a
                 href="tel:+31616545906"
-                className="font-semibold hover:text-primary transition"
+                className="font-semibold hover:text-secondary transition"
               >
                 +31 (0)6 165 45 906
               </a>
