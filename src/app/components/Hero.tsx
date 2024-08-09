@@ -6,6 +6,7 @@ const Hero = () => {
       </h3>
       <h2 className="text-5xl sm:text-6xl font-bold tracking-tight text-black">
         Empowering by digital intelligence
+        <span className="text-primary">.</span>
       </h2>
       <p className="mt-4 text-lg leading-8 text-black/75">
         We provide companies with tailored software solutions that optimize,
@@ -15,7 +16,7 @@ const Hero = () => {
       <div className="mt-8 flex items-center gap-x-6">
         <a
           href="#contact"
-          className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
+          className="rounded-full bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition"
         >
           Get in touch
         </a>

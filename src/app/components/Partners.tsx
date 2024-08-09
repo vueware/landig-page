@@ -6,6 +6,7 @@ const Partners = () => {
       </h3>
       <h2 className="text-3xl font-bold tracking-tight text-black">
         Trusted by the most innovative companies
+        <span className="text-primary">.</span>
       </h2>
       <div className="flex mt-4">
         <img

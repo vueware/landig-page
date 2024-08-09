@@ -8,7 +8,7 @@ const Contact = () => {
           Get in touch
         </h3>
         <h2 className="text-3xl font-bold tracking-tight">
-          Don't be a stranger
+          Don't be a stranger<span className="text-primary">.</span>
         </h2>
         <dl className="mt-4 space-y-4 text-bold leading-7 text-black/75">
           <div className="flex gap-x-4">
