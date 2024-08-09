@@ -6,8 +6,16 @@ const font = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vueware — Digital Intelligence",
-  description:
-    "The word combines vue, meaning vision and insight, with ware, representing software. Vueware provides companies with software that delivers deep insights, enabling them to focus on their core strengths and excel in what they do best. As a no-nonsense company, we are straightforward and honor our commitments.",
+  description: "We provide companies with tailored software solutions.",
+  openGraph: {
+    type: "website",
+    url: "https://vueware.io",
+    title: "Vueware — Digital Intelligence",
+    description: "We provide companies with tailored software solutions.",
+    images: [
+      "https://avatars.githubusercontent.com/u/177398386?s=400&u=808f178a3117508ca26a5f434e0dc81ad26b89b2&v=4",
+    ],
+  },
 };
 
 export default function RootLayout({
